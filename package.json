@@ -1,0 +1,31 @@
+{
+  "name": "oni-oms",
+  "version": "1.0.0",
+  "description": "Omni Channel Order Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanmaseel/oni-oms.git"
+  },
+  "author": "Burhan Maseel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burhanmaseel/oni-oms/issues"
+  },
+  "homepage": "https://github.com/burhanmaseel/oni-oms#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.2",
+    "path": "^0.12.7"
+  }
+}
